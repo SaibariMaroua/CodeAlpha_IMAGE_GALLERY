@@ -33,16 +33,15 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', function(event) {
             event.preventDefault();
 
-            // Remove 'active' class from all filter links
+           
             filterLinks.forEach(link => link.classList.remove('active'));
 
-            // Add 'active' class to the clicked link
             this.classList.add('active');
 
-            // Get the filter value
+       
             const filterValue = this.getAttribute('data-filter');
 
-            // Filter menu items based on the selected category
+  
             filteredItems = allItems.filter(item => {
                 if (filterValue === 'all') {
                     item.style.display = 'block';
@@ -56,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
-            // Reset gallery to the first item of the filtered set
+          
             if (filteredItems.length > 0) {
                 currentIndex = 0;
                 showItem(currentIndex);
@@ -68,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Initialize the gallery if there are items to show
+    
     if (allItems.length > 0) {
         filteredItems = allItems;
         showItem(currentIndex);

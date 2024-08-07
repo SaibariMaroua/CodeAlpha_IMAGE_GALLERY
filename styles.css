@@ -5,11 +5,11 @@ body {
 }
 h1 {
     font-size: 3em;
-    color: #fff; /* Couleur de votre choix */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre du texte */
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
     margin-top: 50px;
     margin-bottom: 20px;
-    letter-spacing: 1px; /* Espacement des lettres */
+    letter-spacing: 1px; 
 }
 header {
     background: #970909;
@@ -37,7 +37,7 @@ section {
     padding: 2rem;
 }
 
-/* Container de la galerie */
+
 .gallery-container {
     position: relative;
     max-width: 800px;
@@ -45,13 +45,13 @@ section {
     overflow: hidden;
 }
 
-/* Conteneur pour le défilement */
+
 .menu-gallery {
     display: flex;
     transition: transform 0.5s ease;
 }
 
-/* Chaque élément de menu */
+
 .menu-item {
     min-width: 100%;
     box-sizing: border-box;
@@ -61,7 +61,7 @@ section {
     align-items: center;
 }
 
-/* Styles des images */
+
 .menu-item img {
     width: auto;
     height: 300px;
@@ -70,7 +70,7 @@ section {
     margin-bottom: 0.5rem;
 }
 
-/* Styles des titres de menu */
+
 .menu-title {
     margin: 0;
     font-size: 1.1rem;
@@ -103,7 +103,7 @@ section {
     background-color: #444;
 }
 
-/* Styles des boutons de navigation */
+
 button {
     background-color: #333;
     color: #fff;
@@ -136,7 +136,7 @@ footer {
 }
 
 .contact-info {
-    background-color: #f8f9fa; /* Couleur de fond légère */
+    background-color: #f8f9fa; 
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
