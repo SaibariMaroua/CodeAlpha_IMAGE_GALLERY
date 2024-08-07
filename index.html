@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="text-center py-3">
+        <h1>Restaurant Maroua</h1>
+        <nav>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+                <li class="mx-2"><a href="#menu" class="text-white">Menu</a></li>
+                <li class="mx-2"><a href="#contact" class="text-white">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Menu</h2>
+            
+            <div class="text-center mb-4">
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-filter="all">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-filter="tacos">Tacos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-filter="panini">Panini</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-filter="pizza">Pizza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-filter="salad">Salad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-filter="soup">Soup</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Gallery Container -->
+            <div class="gallery-container">
+                <div class="menu-gallery">
+                    <div class="menu-item" data-category="tacos">
+                        <img src="images/tacos.jpg" alt="Tacos" class="img-fluid">
+                        <p class="menu-title">Chicken Tacos - 50 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="tacos">
+                        <img src="images/tacos-viande-hachee.jpg" alt="Tacos" class="img-fluid">
+                        <p class="menu-title">Ground meat tacos - 60 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="tacos">
+                        <img src="images/Mexican avocado shrimp tacos.jpg" alt="Tacos" class="img-fluid">
+                        <p class="menu-title">Mexican avocado shrimp tacos - 90 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="panini">
+                        <img src="images/panini.jpg" alt="Panini" class="img-fluid">
+                        <p class="menu-title">Ham Mozzarella Panini - 35 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="panini">
+                        <img src="images/paniniThon.jpg" alt="Panini" class="img-fluid">
+                        <p class="menu-title"> Tuna Panini - 30 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="panini">
+                        <img src="images/paniniViande.jpg" alt="Panini" class="img-fluid">
+                        <p class="menu-title">Minced Meat Panini - 50 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="panini">
+                        <img src="images/paniniPoulet.jpeg" alt="Panini" class="img-fluid">
+                        <p class="menu-title">Chicken Panini - 45 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="pizza">
+                        <img src="images/piza.avif" alt="Pizza" class="img-fluid">
+                        <p class="menu-title">Minced Meat Pizza - 70 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="pizza">
+                        <img src="images/pizzaFruitsMer.jpg" alt="Pizza" class="img-fluid">
+                        <p class="menu-title">Seafood Pizza - 80 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="pizza">
+                        <img src="images/pizzaThon.webp" alt="Pizza" class="img-fluid">
+                        <p class="menu-title">Tuna Pizza - 45 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="pizza">
+                        <img src="images/Pizza Margherita.jpeg" alt="Pizza" class="img-fluid">
+                        <p class="menu-title">Margherita Pizza - 30 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="salad">
+                        <img src="images/salade.jpg" alt="Salad" class="img-fluid">
+                        <p class="menu-title">varied salads - 45 DH</p>
+                    </div>
+
+                    <div class="menu-item" data-category="salad">
+                        <img src="images/saladePatesJambon.jpeg" alt="Salad" class="img-fluid">
+                        <p class="menu-title">Ham Pasta Salad - 30 DH</p>
+                    </div>
+
+                    <div class="menu-item" data-category="salad">
+                        <img src="images/saladeMarocaine.jpg" alt="Salad" class="img-fluid">
+                        <p class="menu-title">Moroccan salad - 40 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="soup">
+                        <img src="images/soupe.jpg" alt="Soup" class="img-fluid">
+                        <p class="menu-title">Soup Salmorejo - 30 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="soup">
+                        <img src="images/soupe.webp" alt="Soup" class="img-fluid">
+                        <p class="menu-title">Fish soup - 50 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="soup">
+                        <img src="images/PistouSoup.webp" alt="Soup" class="img-fluid">
+                        <p class="menu-title">Pistou Soup- 67 DH</p>
+                    </div>
+                    <div class="menu-item" data-category="soup">
+                        <img src="images/Vegetable-Beef-Soup-bowl.jpg" alt="Soup" class="img-fluid">
+                        <p class="menu-title">Vegetable and Beef Soup - 80 DH</p>
+                    </div>
+                </div>
+                <button class="btn btn-dark prev">Previous</button>
+                <button class="btn btn-dark next">Next</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-info text-center p-4">
+                        <i class="fas fa-envelope fa-2x"></i>
+                        <h4>Email</h4>
+                        <p>contact@restaurant.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-info text-center p-4">
+                        <i class="fas fa-phone-alt fa-2x"></i>
+                        <h4>Phone</h4>
+                        <p>(123) 456-7890</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-info text-center p-4">
+                        <i class="fas fa-map-marker-alt fa-2x"></i>
+                        <h4>Address</h4>
+                        <p>123 Restaurant St, Food City, FC 12345</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-8 mx-auto">
+                    <div class="contact-form p-4">
+                        <h4 class="text-center mb-4">Send Us a Message</h4>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <br><br><br><br><br>
+                            <br><br><br><br><br>
+                            <br><br><br><br><br><br>
+                            <button type="submit" class="btn btn-custom mx-auto">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="text-center py-3">
+        <p class="mb-0">&copy; 2024 Restaurant Maroua. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
